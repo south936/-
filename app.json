@@ -1,12 +1,50 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",  
+    "pages/category/index", 
+    "pages/goods_list/index", 
+    "pages/goods_detail/index", 
+    "pages/cart/index", 
+    "pages/collect/index", 
+    "pages/order/index", 
+    "pages/search/index", 
+    "pages/user/index", 
+    "pages/feedback/index", 
+    "pages/login/index", 
+    "pages/auth/index", 
+    "pages/pay/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#00a8ff",
+    "navigationBarTitleText": "lol周边商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#f20d0f",
+    "backgroundColor": "#00c1ff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/home.png",
+      "selectedIconPath": "icons/home_o.png"
+    },{
+      "pagePath": "pages/category/index", 
+      "text": "分类",
+      "iconPath": "icons/category.png",
+      "selectedIconPath": "icons/category_o.png"
+    },{
+      "pagePath": "pages/cart/index", 
+      "text": "购物车",
+      "iconPath": "icons/cart.png",
+      "selectedIconPath": "icons/cart_o.png"
+    },{
+      "pagePath": "pages/user/index", 
+      "text": "我的",
+      "iconPath": "icons/user.png",
+      "selectedIconPath": "icons/user_o.png"
+    }]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
